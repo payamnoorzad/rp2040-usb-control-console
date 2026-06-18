@@ -1,0 +1,18 @@
+# Rust build output
+/target/
+
+# Generated firmware artifacts
+*.uf2
+*.elf
+*.bin
+*.map
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak

@@ -1,0 +1,22 @@
+[package]
+name = "rp2040-usb-control-console"
+version = "0.1.0"
+edition = "2021"
+authors = ["Payam Noorzad"]
+description = "no_std Rust firmware that exposes a USB CDC command console for RP2040-based boards."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/<your-username>/rp2040-usb-control-console"
+keywords = ["rp2040", "rust", "embedded", "usb", "pico"]
+categories = ["embedded", "no-std"]
+
+[dependencies]
+rp-pico = "0.9.0"
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+panic-halt = "0.2"
+usb-device = "0.3"
+usbd-serial = "0.2"
+fugit = "0.3"
+pio = "0.2"
+pio-proc = "0.2"
