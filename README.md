@@ -1,3 +1,7 @@
+![Language](https://img.shields.io/badge/language-Rust-orange)
+![Target](https://img.shields.io/badge/target-RP2040-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 # RP2040 USB Control Console
 
 A small **Rust `no_std` firmware** for RP2040-based boards. It exposes a USB CDC serial command console that can control a status RGB LED and reboot the board into BOOTSEL mode for fast flashing.
